@@ -1,0 +1,226 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Scratch\n"
+"Report-Msgid-Bugs-To:  Artec developper <planning@artec-kk.co.jp>\n"
+"POT-Creation-Date: 2013-08-01\n"
+"PO-Revision-Date: 2013-08-01 12:54+0900\n"
+"Last-Translator: Artec developper <planning@artec-kk.co.jp>\n"
+"Language-Team: Artec developper <planning@artec-kk.co.jp>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Pootle 1.1.0rc2\n"
+
+############################################
+# FORMATTING
+############################################
+
+# Language name as you'd like it to appear in the Languages menu
+# (Required)
+msgid "Language-Name"
+msgstr "Artec Robot"
+
+# Directionality of language
+# LTR = Left to Right
+# RTL = Right to Left
+msgid "Language-Direction"
+msgstr "LTR"
+
+# Scale to apply to font size (2 for twice as large)
+# Use this if the font is too small for legibility on the Scratch interface
+msgid "Font-Scale"
+msgstr "1.1"
+
+# Set to 'true' or 'false'
+# Use this if you do not want any of the text to be bolded, for legibility
+msgid "Suppress-Bold"
+msgstr "true"
+
+# Font to use on a Windows system
+msgid "Win-Font"
+msgstr "MS Gothic"
+
+# Font to use on a Mac system
+msgid "Mac-Font"
+msgstr ""
+
+# Font to use on a Linux system
+msgid "Linux-Font"
+msgstr ""
+############################################
+# BLOCKS
+############################################
+
+########## Motion ##########
+msgid "Set servomotor %J to %F degrees"
+msgstr "board.Servomotor(PORT_%J, SVRANGE(%F));"
+
+msgid "DC motor %j power %n"
+msgstr "board.DCMotorPower(PORT_%j, DCMPWR(%n));"
+
+msgid "DC motor %j off %T"
+msgstr "board.DCMotorControl(PORT_%j, %T);"
+
+msgid "DC motor %j on at %t"
+msgstr "board.DCMotorControl(PORT_%j, %t);"
+
+msgid "Buzzer %B on frequency %N"
+msgstr "board.BuzzerControl(PORT_%B, ON, BHZ(%N));"
+
+msgid "Buzzer %B off"
+msgstr "board.BuzzerControl(PORT_%B, OFF, 0);"
+
+msgid "LED %p %o"
+msgstr "board.LED(PORT_%p, %o);"
+
+#msgid "Color LED %w %o"
+#msgstr "colorLedControl(%w, %o");
+
+msgid "Brake"
+msgstr "BRAKE"
+
+msgid "Coast"
+msgstr "COAST"
+
+msgid "cw."
+msgstr "NORMAL"
+
+msgid "ccw."
+msgstr "REVERSE"
+
+msgid "on"
+msgstr "ON"
+
+msgid "off"
+msgstr "OFF"
+
+########## Control ###########
+msgid "wait %n secs"
+msgstr "delay(%n * 1000UL);"
+
+msgid "forever"
+msgstr "for (;;) {"
+
+msgid "repeat %n"
+msgstr "%n for (int i = 0;i < "
+
+msgid "call %e function"
+msgstr "ARSR_%e();"
+
+msgid "%e function"
+msgstr "void ARSR_%e() {"
+
+msgid "forever if %b"
+msgstr "if (%b) {"
+
+msgid "if %b"
+msgstr "if (%b) {"
+
+msgid "wait until %b"
+msgstr "while (!%b);"
+
+msgid "repeat until %b"
+msgstr "while (!%b) {"
+
+msgid "Servomotor synchro motion delay:%E"
+msgstr "synchroMotionDelay:%E"
+
+msgid "Servomotor synchro motion speed:%E"
+msgstr "synchroMotionSpeed:%E"
+
+########## Sensor ###########
+msgid "Light Sensor %P value"
+msgstr "LIGHT_SENSOR(PORT_%P)"
+
+msgid "Touch Sensor %V value"
+msgstr "TOUCH_SENSOR(PORT_%V)"
+
+msgid "Sound Sensor %O value"
+msgstr "SOUND_SENSOR(PORT_%O)"
+
+msgid "IR Photoreflector %Z value"
+msgstr "IRPHOTOREFLECTOR(PORT_%Z)"
+
+msgid "3-Axis Digital Accelerometer %Y value"
+msgstr "ACCELEROMETER(%Y_AXIS)"
+
+msgid "Button %X value"
+msgstr "PUSHSWITCH(PORT_%X)"
+
+
+########## Operator ###########
+msgid "%n + %n"
+msgstr "(%n1 + %n2)"
+
+msgid "%n - %n"
+msgstr "(%n1 - %n2)"
+
+msgid "%n * %n"
+msgstr "(%n1 * %n2)"
+
+msgid "%n / %n"
+msgstr "(%n1 / (float)(%n2))"
+
+msgid "pick random %n to %n"
+msgstr "random(%n1, (%n2+1))"
+
+msgid "%n < %n"
+msgstr "(%n1 < %n2)"
+
+msgid "%n = %n"
+msgstr "(%n1 == %n2)"
+
+msgid "%n > %n"
+msgstr "(%n1 > %n2)"
+
+msgid "%b and %b"
+msgstr "(%b1 && %b2)"
+
+msgid "%b or %b"
+msgstr "(%b1 || %b2)"
+
+msgid "not %b"
+msgstr "(!%b)"
+
+msgid "%n mod %n"
+msgstr "((int)(%n1) % (int)(%n2))"
+
+msgid "round %n"
+msgstr "scratchRound(%n)"
+
+msgid "%f of %n"
+msgstr "math(%f, %n)"
+########## Variables ##########
+msgid "add %n to %L"
+msgstr "listAdd(&ARLIST_%L, %n);"
+
+msgid "delete %y of %L"
+msgstr "listDelete(&ARLIST_%L, %y);"
+
+msgid "insert %n at %i of %L"
+msgstr "listInsert(&ARLIST_%L, %i, %n);"
+
+msgid "replace item %i of %L with %n"
+msgstr "listReplace(&ARLIST_%L, %i, %n);"
+
+msgid "item %i of %L"
+msgstr "listItem(&ARLIST_%L, %i)"
+
+msgid "length of %L"
+msgstr "listLength(&ARLIST_%L)"
+
+msgid "%L contains %n"
+msgstr "listIsContain(&ARLIST_%L, %n)"
+
+msgid "set %v to %n"
+msgstr "ARVAL_%v = %n;"
+
+msgid "change %v by %n"
+msgstr "ARVAL_%v += %n;"
+
+msgid "reset timer"
+msgstr "resetTimer();"
+
+msgid "timer"
+msgstr "getTimer()"
+
