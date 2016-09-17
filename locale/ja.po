@@ -1952,8 +1952,41 @@ msgstr "ブザー %B の出力を停止する"
 msgid "LED %p %o"
 msgstr "LED %p を %o"
 
+msgid "Onboard LED %p1 %o"
+msgstr "基板上のLED %p1 を %o"
+
 msgid "Color LED %w %o"
 msgstr "カラーLED %w 色 で %o"
+
+msgid "Set time %nh %nm"
+msgstr "時間を%n時%n分に設定する"
+
+msgid "Set date %n/%n/%n"
+msgstr "日付を%n3年%n1月%n2日に設定する"
+
+msgid "Set alarm %nh %nm"
+msgstr "アラームを%n時%n分に設定する"
+
+msgid "Set backlight R%n G%n B%n"
+msgstr "バックライトを赤%n緑%n青%nに設定する"
+
+msgid "Backlight %o"
+msgstr "バックライトを%o"
+
+msgid "Clock's buzzer on frequency %N for %n"
+msgstr "時計のブザーから%Nを%n秒出力する"
+
+msgid "Clock's buzzer off"
+msgstr "時計のブザーの出力を停止する"
+
+msgid "Red(D5)"
+msgstr "赤(D5)"
+
+msgid "Yellow(D6)"
+msgstr "黄(D6)"
+
+msgid "Green(D9)"
+msgstr "緑(D9)"
 
 msgid "Brake"
 msgstr "停止"
@@ -2018,6 +2051,42 @@ msgstr "ボタン %X の値"
 
 msgid "3-Axis Digital Accelerometer %Y value"
 msgstr "加速度センサー %Y の値"
+
+msgid "Onboard Light Sensor value"
+msgstr "基板上の光センサーの値"
+
+msgid "Power value"
+msgstr "電池電圧"
+
+msgid "Clock's %Z1"
+msgstr "液晶時計の %Z1 の値"
+
+msgid "becoming in alarm time"
+msgstr "アラームの時間になった"
+
+msgid "Hour"
+msgstr "時間"
+
+msgid "Minute"
+msgstr "分"
+
+msgid "Year"
+msgstr "年"
+
+msgid "Month"
+msgstr "月"
+
+msgid "Day"
+msgstr "日"
+
+msgid "Temperature"
+msgstr "温度"
+
+msgid "Alarm hour"
+msgstr "アラーム(時間)"
+
+msgid "Alarm minute"
+msgstr "アラーム(分)"
 
 ########## Control ###########
 
@@ -2093,6 +2162,12 @@ msgstr "COMポートでエラーが発生しています。"
 msgid "Export Arduino Language"
 msgstr "Arduino言語に変換"
 
+msgid "Time out error."
+msgstr "タイムアウトエラー"
+
+msgid "Operation timed out."
+msgstr "操作がタイムアウトしました。"
+
 ########## Menu ###########
 msgid "Servomotor calibration"
 msgstr "サーボモーター角度校正"
@@ -2114,6 +2189,12 @@ msgstr "度"
 
 msgid "Port Settings"
 msgstr "入出力設定"
+
+msgid "Board selection"
+msgstr "基板の選択"
+
+msgid "Select a board type."
+msgstr "基板を選択してください"
 
 msgid "Run"
 msgstr "実行"
@@ -2241,6 +2322,12 @@ msgid "Accelerometer (Y)"
 msgstr "加速度センサー(Y)"
 msgid "Accelerometer (Z)"
 msgstr "加速度センサー(Z)"
+
+msgid "Onboard LightSensor"
+msgstr "基板上の光センサー"
+
+msgid "Battery voltage [V]"
+msgstr "電池電圧 [V]"
 
 msgid "DC motor"
 msgstr "DCモーター"
@@ -2379,3 +2466,17 @@ msgstr "スクリプトを正しく開くことができません"
 msgid "Script you are trying to open might be \nusing a block that can not be displayed \nin this programming environment. \nIt is recommended that you update \nthe programming environment \nto the latest version."
 msgstr "このスクリプトは、本プログラミング環境では\n表示できないブロックを使用しています。\n正しく開く場合は、オプションパーツに対応した\nプログラミング環境(ver2以上)を使用する必要が\nあります。"
 
+msgid "Are you ready to transfer your program?"
+msgstr "転送の準備ができました。"
+
+msgid "Are you ready to transfer your program?2"
+msgstr "転送の準備ができました。 2"
+
+msgid "Push a reset button on a board."
+msgstr "基板のリセットボタンを押してください。"
+
+msgid "Transfer failed"
+msgstr "転送エラー"
+
+msgid "Failed to transfer a program. Please retry."
+msgstr "転送に失敗しました。もう一度やり直してください。"

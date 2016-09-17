@@ -21,7 +21,7 @@ for /f "tokens=2 delims=," %%i in ('title @@@^&tasklist /v /fo csv /nh /fi "wind
 
 rem echo %PID_VAL%
 
-start /b /wait .\Block.exe .\ScratchSourceCode1.4.image
+start /b /wait .\Block.exe .\Block.image
 
 rem pause
 

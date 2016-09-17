@@ -73,6 +73,39 @@ msgstr "board.BuzzerControl(PORT_%B, OFF, 0);"
 msgid "LED %p %o"
 msgstr "board.LED(PORT_%p, %o);"
 
+msgid "Onboard LED %p1 %o"
+msgstr "board.LED(%p1, %o);"
+
+msgid "Set time %nh %nm"
+msgstr "board.setTime(%n, %n);"
+
+msgid "Set date %n/%n/%n"
+msgstr "board.setDate(%n3, %n1, %n2);"
+
+msgid "Set alarm %nh %nm"
+msgstr "board.setAlarm(%n, %n);"
+
+msgid "Set backlight R%n G%n B%n"
+msgstr "board.setBackLight(%n, %n, %n);"
+
+msgid "Backlight %o"
+msgstr "board.backLight(%o);"
+
+msgid "Clock's buzzer on frequency %N for %n"
+msgstr "board.clockBuzzer(BHZ(%N), %n * 1000UL);"
+
+msgid "Clock's buzzer off"
+msgstr "board.clockBuzzer(OFF, 0);"
+
+msgid "Red(D5)"
+msgstr "PORT_D5"
+
+msgid "Yellow(D6)"
+msgstr "PORT_D6"
+
+msgid "Green(D9)"
+msgstr "PORT_D9"
+
 #msgid "Color LED %w %o"
 #msgstr "colorLedControl(%w, %o");
 
@@ -147,6 +180,41 @@ msgstr "ACCELEROMETER(%Y_AXIS)"
 msgid "Button %X value"
 msgstr "PUSHSWITCH(PORT_%X)"
 
+msgid "Onboard Light Sensor value"
+msgstr "LIGHT_SENSOR(PORT_A6)"
+
+msgid "Power value"
+msgstr "board.GetBatteryVoltage()"
+
+msgid "Clock's %Z1"
+msgstr "board.Get%Z1"
+
+msgid "becoming in alarm time"
+msgstr "board.isAlarmTime()"
+
+msgid "Hour"
+msgstr "Hour()"
+
+msgid "Minute"
+msgstr "Minute()"
+
+msgid "Year"
+msgstr "Year()"
+
+msgid "Month"
+msgstr "Month()"
+
+msgid "Day"
+msgstr "Day()"
+
+msgid "Temperature"
+msgstr "Temperature()"
+
+msgid "Alarm hour"
+msgstr "AlarmHour()"
+
+msgid "Alarm minute"
+msgstr "AlarmMinute()"
 
 ########## Operator ###########
 msgid "%n + %n"
