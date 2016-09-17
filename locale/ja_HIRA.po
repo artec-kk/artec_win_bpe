@@ -153,7 +153,7 @@ msgid "forever"
 msgstr "ずっと"
 
 msgid "forever if %b"
-msgstr "もし %b なら、ずっと"
+msgstr "ずっと、もし %b なら"
 
 msgid "glide %n secs to x:%n y:%n"
 msgstr "%n びょうでxざひょうを %n に、yざひょうを %n にかえる"
