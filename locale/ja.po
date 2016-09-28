@@ -1191,6 +1191,9 @@ msgstr "シリアルかUSBのポートを選択"
 msgid "Select tool (move, modify, or delete selection)"
 msgstr "選択ツール (選択したものを動かしたり、修正したり、削除したりする)"
 
+msgid "Setting"
+msgstr "設定"
+
 msgid "Set costume center"
 msgstr "コスチュームの中心を設定"
 
@@ -2465,6 +2468,9 @@ msgstr "スクリプトを正しく開くことができません"
 
 msgid "Script you are trying to open might be \nusing a block that can not be displayed \nin this programming environment. \nIt is recommended that you update \nthe programming environment \nto the latest version."
 msgstr "このスクリプトは、本プログラミング環境では\n表示できないブロックを使用しています。\n正しく開く場合は、オプションパーツに対応した\nプログラミング環境(ver2以上)を使用する必要が\nあります。"
+
+msgid "Script you are trying to open is not compartible to current project."
+msgstr "このスクリプトは、現在のプロジェクトでは開くことができません。"
 
 msgid "Are you ready to transfer your program?"
 msgstr "転送の準備ができました。"

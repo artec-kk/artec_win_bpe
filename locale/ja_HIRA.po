@@ -1191,6 +1191,9 @@ msgstr "シリアルかUSBのポートをせんたく"
 msgid "Select tool (move, modify, or delete selection)"
 msgstr "せんたくツール (せんたくしたものをうごかしたり、しゅうせいしたり、さくじょしたりする)"
 
+msgid "Setting"
+msgstr "せってい"
+
 msgid "Set costume center"
 msgstr "コスチュームのちゅうしんをせってい"
 
@@ -2459,6 +2462,9 @@ msgstr "スクリプトをただしくひらくことができません"
 
 msgid "Script you are trying to open might be \nusing a block that can not be displayed \nin this programming environment. \nIt is recommended that you update \nthe programming environment \nto the latest version."
 msgstr "このスクリプトは、このプログラミングかんきょうでは\nひょうじできないブロックをしようしています。\nただしくひらくには、オプションパーツにたいおうした\nプログラミングかんきょう(ver2以上)をしようするひつようが\nあります。"
+
+msgid "Script you are trying to open is not compartible to current project."
+msgstr "このスクリプトは、げんざいのプロジェクトではひらくことができません。"
 
 msgid "Are you ready to transfer your program?"
 msgstr "てんそうのじゅんびができました。"
