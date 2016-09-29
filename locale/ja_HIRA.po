@@ -2134,11 +2134,23 @@ msgstr "システムエラー3がはっせいしました。さいインスト�
 msgid "Undefined function."
 msgstr "ていぎされていないかんすうがそんざいします。"
 
-msgid "There are blocks that are not connected."
-msgstr "せつぞくされていないブロックがそんざいします。"
+msgid "Multiple functions with same name."
+msgstr "おなじなまえのかんすうがふくすうあります。"
 
-msgid "Undefined function.\nThere are blocks that are not connected."
-msgstr "ていぎされていないかんすうがそんざいします。\nせつぞくされていないブロックがそんざいします。"
+msgid "Undefined function.\nMultiple functions with same name."
+msgstr "ていぎされていないかんすうがそんざいします。\nおなじなまえのかんすうがふくすうあります。"
+
+msgid "Unknown error."
+msgstr "よきしないエラーがはっせいしています。"
+
+msgid "Undefined function.\nUnknown error."
+msgstr "ていぎされていないかんすうがそんざいします。\nよきしないエラーがはっせいしています。"
+
+msgid "Multiple functions with same name.\nUnknown error."
+msgstr "おなじなまえのかんすうがふくすうあります。\nよきしないエラーがはっせいしています。"
+
+msgid "Undefined function.\nMultiple functions with same name.\nUnknown error."
+msgstr "ていぎされていないかんすうがそんざいします。\nおなじなまえのかんすうがふくすうあります。\nよきしないエラーがはっせいしています。"
 
 msgid "Disconnected."
 msgstr "つうしんがせつだんされました。"

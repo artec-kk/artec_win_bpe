@@ -2140,11 +2140,23 @@ msgstr "システムエラー3が発生しました。再インストールし�
 msgid "Undefined function."
 msgstr "定義されていない関数が存在します。"
 
-msgid "There are blocks that are not connected."
-msgstr "接続されていないブロックが存在します。"
+msgid "Multiple functions with same name."
+msgstr "同じ名前の関数が複数定義されています。"
 
-msgid "Undefined function.\nThere are blocks that are not connected."
-msgstr "定義されていない関数が存在します。\n接続されていないブロックが存在します。"
+msgid "Undefined function.\nMultiple functions with same name."
+msgstr "定義されていない関数が存在します。\n同じ名前の関数が複数定義されています。"
+
+msgid "Unknown error."
+msgstr "予期しないエラーが発生しています。"
+
+msgid "Undefined function.\nUnknown error."
+msgstr "定義されていない関数が存在します。\n予期しないエラーが発生しています。"
+
+msgid "Multiple functions with same name.\nUnknown error."
+msgstr "同じ名前の関数が複数定義されています。\n予期しないエラーが発生しています。"
+
+msgid "Undefined function.\nMultiple functions with same name.\nUnknown error."
+msgstr "定義されていない関数が存在します。\n同じ名前の関数が複数定義されています。\n予期しないエラーが発生しています。"
 
 msgid "Disconnected."
 msgstr "通信が切断されました。"
