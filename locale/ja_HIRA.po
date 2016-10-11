@@ -153,7 +153,7 @@ msgid "forever"
 msgstr "ずっと"
 
 msgid "forever if %b"
-msgstr "もし %b なら、ずっと"
+msgstr "ずっと、もし %b なら"
 
 msgid "glide %n secs to x:%n y:%n"
 msgstr "%n びょうでxざひょうを %n に、yざひょうを %n にかえる"
@@ -1191,6 +1191,9 @@ msgstr "シリアルかUSBのポートをせんたく"
 msgid "Select tool (move, modify, or delete selection)"
 msgstr "せんたくツール (せんたくしたものをうごかしたり、しゅうせいしたり、さくじょしたりする)"
 
+msgid "Setting"
+msgstr "せってい"
+
 msgid "Set costume center"
 msgstr "コスチュームのちゅうしんをせってい"
 
@@ -1952,8 +1955,41 @@ msgstr "ブザー %B をとめる"
 msgid "LED %p %o"
 msgstr "LED %p を %o"
 
+msgid "Onboard LED %p1 %o"
+msgstr "きばんのLED %p1 を %o"
+
 msgid "Color LED %w %o"
 msgstr "カラーLED %w 色 で %o"
+
+msgid "Set time %nh %nm"
+msgstr "じかんを%nじ%nふんにする"
+
+msgid "Set date %n/%n/%n"
+msgstr "ひづけを%n3ねん%n1がち%n2にちにする"
+
+msgid "Set alarm %nh %nm"
+msgstr "アラームを%nじ%nふんにする"
+
+msgid "Set backlight R%n G%n B%n"
+msgstr "バックライトをあか%nみどり%nあお%nにする"
+
+msgid "Backlight %o"
+msgstr "バックライトを%o"
+
+msgid "Clock's buzzer on frequency %N for %n"
+msgstr "とけいのブザーから%Nを%nびょうだす"
+
+msgid "Clock's buzzer off"
+msgstr "とけいのブザーをとめる"
+
+msgid "Red(D5)"
+msgstr "あか(D5)"
+
+msgid "Yellow(D6)"
+msgstr "き(D6)"
+
+msgid "Green(D9)"
+msgstr "みどり(D9)"
 
 msgid "Brake"
 msgstr "ぴたっととめる"
@@ -2013,6 +2049,42 @@ msgstr "ボタン %X"
 msgid "3-Axis Digital Accelerometer %Y value"
 msgstr "かそくどセンサー %Y"
 
+msgid "Onboard Light Sensor value"
+msgstr "きばんのひかりセンサー"
+
+msgid "Power value"
+msgstr "でんちのでんあつ"
+
+msgid "Clock's %Z1"
+msgstr "えきしょうどけいの %Z1"
+
+msgid "becoming in alarm time"
+msgstr "アラームのじかんになった"
+
+msgid "Hour"
+msgstr "じかん"
+
+msgid "Minute"
+msgstr "ふん"
+
+msgid "Year"
+msgstr "ねん"
+
+msgid "Month"
+msgstr "がつ"
+
+msgid "Day"
+msgstr "にち"
+
+msgid "Temperature"
+msgstr "おんど"
+
+msgid "Alarm hour"
+msgstr "アラーム(じかん)"
+
+msgid "Alarm minute"
+msgstr "アラーム(ふん)"
+
 ########## Control ###########
 
 msgid "%m Start program"
@@ -2062,11 +2134,23 @@ msgstr "システムエラー3がはっせいしました。さいインスト�
 msgid "Undefined function."
 msgstr "ていぎされていないかんすうがそんざいします。"
 
-msgid "There are blocks that are not connected."
-msgstr "せつぞくされていないブロックがそんざいします。"
+msgid "Multiple functions with same name."
+msgstr "おなじなまえのかんすうがふくすうあります。"
 
-msgid "Undefined function.\nThere are blocks that are not connected."
-msgstr "ていぎされていないかんすうがそんざいします。\nせつぞくされていないブロックがそんざいします。"
+msgid "Undefined function.\nMultiple functions with same name."
+msgstr "ていぎされていないかんすうがそんざいします。\nおなじなまえのかんすうがふくすうあります。"
+
+msgid "Unknown error."
+msgstr "よきしないエラーがはっせいしています。"
+
+msgid "Undefined function.\nUnknown error."
+msgstr "ていぎされていないかんすうがそんざいします。\nよきしないエラーがはっせいしています。"
+
+msgid "Multiple functions with same name.\nUnknown error."
+msgstr "おなじなまえのかんすうがふくすうあります。\nよきしないエラーがはっせいしています。"
+
+msgid "Undefined function.\nMultiple functions with same name.\nUnknown error."
+msgstr "ていぎされていないかんすうがそんざいします。\nおなじなまえのかんすうがふくすうあります。\nよきしないエラーがはっせいしています。"
 
 msgid "Disconnected."
 msgstr "つうしんがせつだんされました。"
@@ -2086,6 +2170,12 @@ msgstr "COMポートでエラーがはっせいしています。"
 
 msgid "Export Arduino Language"
 msgstr "Arduino(アルドゥイーノ)げんごにへんかん"
+
+msgid "Time out error."
+msgstr "タイムアウトエラー"
+
+msgid "Operation timed out."
+msgstr "そうさがタイムアウトしました。"
 
 ########## Menu ###########
 msgid "Servomotor calibration"
@@ -2108,6 +2198,12 @@ msgstr " ど　"
 
 msgid "Port Settings"
 msgstr "にゅうしゅつりょくせってい"
+
+msgid "Board selection"
+msgstr "きばんのせんたく"
+
+msgid "Select a board type."
+msgstr "きばんをせんたくしてください"
 
 msgid "Run"
 msgstr "じっこう"
@@ -2235,6 +2331,12 @@ msgid "Accelerometer (Y)"
 msgstr "かそくどセンサー(Y)"
 msgid "Accelerometer (Z)"
 msgstr "かそくどセンサー(Z)"
+
+msgid "Onboard LightSensor"
+msgstr "きばんのひかりセンサー"
+
+msgid "Battery voltage [V]"
+msgstr "でんちのでんあつ [V]"
 
 msgid "DC motor"
 msgstr "DCモーター"
@@ -2373,3 +2475,20 @@ msgstr "スクリプトをただしくひらくことができません"
 msgid "Script you are trying to open might be \nusing a block that can not be displayed \nin this programming environment. \nIt is recommended that you update \nthe programming environment \nto the latest version."
 msgstr "このスクリプトは、このプログラミングかんきょうでは\nひょうじできないブロックをしようしています。\nただしくひらくには、オプションパーツにたいおうした\nプログラミングかんきょう(ver2以上)をしようするひつようが\nあります。"
 
+msgid "Script you are trying to open is not compartible to current project."
+msgstr "このスクリプトは、げんざいのプロジェクトではひらくことができません。"
+
+msgid "Are you ready to transfer your program?"
+msgstr "てんそうのじゅんびができました。"
+
+msgid "Are you ready to transfer your program?2"
+msgstr "てんそうのじゅんびができました。 2"
+
+msgid "Push a reset button on a board."
+msgstr "きばんのリセットボタンをおしてください。"
+
+msgid "Transfer failed"
+msgstr "てんそうエラー"
+
+msgid "Failed to transfer a program. Please retry."
+msgstr "てんそうにしっぱいしました。もういちどやりなおしてください。"
