@@ -2112,10 +2112,10 @@ msgid "Coast"
 msgstr "감속후 정지"
 
 msgid "cw."
-msgstr "시계방향 회전"
+msgstr "정회전"
 
 msgid "ccw."
-msgstr "반시계방향 회전"
+msgstr "역회전"
 
 msgid "on"
 msgstr "켜기"
