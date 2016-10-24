@@ -2158,7 +2158,7 @@ msgid "Touch Sensor %V value"
 msgstr "터치 센서 %V 의 값"
 
 msgid "Sound Sensor %O value"
-msgstr "소리 센서 %O 의 값"
+msgstr "사운드 센서 %O 의 값"
 
 msgid "IR Photoreflector %Z value"
 msgstr "적외선 반사 센서 %Z 의 값"
