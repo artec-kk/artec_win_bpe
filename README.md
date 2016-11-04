@@ -17,7 +17,7 @@
 
 本ソフトウェアは、["Scratch 1.4 Source Code - Scratch Wiki"](https://wiki.scratch.mit.edu/wiki/Scratch_1.4_Source_Code)で公開されております"Scratch Source Code License"版Scratch 1.4をベースとしております。したがって、当リポジトリで公開しております開発環境についても、"Scratch Source Code License"を適用して公開するものです。
 
-本ソフトウェアを用いて派生製品を開発する場合、以下の点に準拠しなけれｂなりません。
+本ソフトウェアを用いて派生製品を開発する場合、以下の点に準拠しなければなりません。
 - [Scratch Source Code License](https://wiki.scratch.mit.edu/wiki/Scratch_1.4_Source_Code#Scratch_Source_Code_Licensed_Code)に準拠すること。
 - 派生製品に、株式会社アーテックが所有する商標、ロゴを用いないこと。
 
