@@ -2,12 +2,15 @@
 [![Scratch Source Code License](http://img.shields.io/badge/license-Scratch Source Code License-green.svg?style=flat)](LICENSE)
 
 ## 本ソフトウェア
-本ソフトウェアは、株式会社アーテックが開発・販売しておりますマイコンボード"Studuino/Studuino mini"、ならびにロボットプログラミング教材"Robotist"用のブロックプログラミング環境ソフトウェアのソースコードです。
+本ソフトウェアは、株式会社アーテックが開発・販売しておりますマイコンボード"Studuino/Studuino mini"、ならびにロボットプログラミング教材"ArtecRobo"用のブロックプログラミング環境ソフトウェアのソースコードです。
 
 本ソフトウェアのインストール形式については、[Studuinoダウンロード](http://www.artec-kk.co.jp/studuino/)のサイトより無償で入手可能となっています。
 
 ## 言語
 当ソフトウェアは["Squeak/Smalltalk"](http://squeak.org/)環境で開発されています。
+
+## 対応OS
+- Microsoft Windows XP以降
 
 ## フィードバックについて
 本ソフトウェアに対するご指摘、改善要望については [Issues](/issues) へお願いいたします。具体的なソースコードの改変内容を含むフィードバックについては、該当箇所の差分もしくは"Block.changes"ファイルの添付をお願いいたします。
