@@ -58,8 +58,8 @@ msgstr "uming"
 msgid "%H sensor value"
 msgstr "%H 的偵測值"
 
-msgid "%L contains %s"
-msgstr "%L 包含 %s"
+msgid "%L contains %n"
+msgstr "%L 包含 %n"
 
 msgid "%a of %m"
 msgstr "%m 的 %a"
@@ -76,8 +76,8 @@ msgstr "%n 的 %f 值"
 msgid "%n mod %n"
 msgstr "%n 除以 %n 的餘數"
 
-msgid "add %s to %L"
-msgstr "將 %s 加到 %L"
+msgid "add %n to %L"
+msgstr "將 %n 加到 %L"
 
 msgid "answer"
 msgstr "答案"
@@ -184,8 +184,8 @@ msgstr "如果 %b"
 msgid "if on edge, bounce"
 msgstr "碰到邊緣就反彈"
 
-msgid "insert %s at %i of %L"
-msgstr "將 %s 加到 %L 的第 %i 項"
+msgid "insert %n at %i of %L"
+msgstr "將 %n 加到 %L 的第 %i 項"
 
 msgid "item %i of %L"
 msgstr "%L 的第 %i 項"
@@ -295,8 +295,14 @@ msgstr "重複執行 %n 次"
 msgid "repeat until %b"
 msgstr "重複執行直到 %b"
 
-msgid "replace item %i of %L with %s"
-msgstr "將 %L 的第 %i 項替換為 %s"
+msgid "Servomotor synchro motion speed:%E"
+msgstr "伺服馬達速度 %E 同步驅動"
+
+msgid "Servomotor synchro motion delay:%E"
+msgstr "伺服馬達延遲 %E 同步驅動"
+
+msgid "replace item %i of %L with %n"
+msgstr "將 %L 的第 %i 項替換為 %n"
 
 msgid "reset timer"
 msgstr "計時器歸零"
@@ -887,8 +893,8 @@ msgstr "光線"
 msgid "Line tool (draw lines)"
 msgstr "線段工具（繪製線段）"
 
-msgid "List name?"
-msgstr "列表名稱？"
+msgid "List name?\n(Only alphanumeric characters are allowed)"
+msgstr "項目表名稱？\n只能輸入數字和英文字母\n（0-9、A-Z、a-z）"
 
 msgid "Low"
 msgstr "低"
@@ -910,6 +916,9 @@ msgstr "喵"
 
 msgid "Message name:"
 msgstr "訊息名稱："
+
+msgid "Function name:\n(Only alphanumeric characters are allowed)"
+msgstr "函數名稱？\n只能輸入數字和英文字母\n（0-9、A-Z、a-z）"
 
 msgid "Min:"
 msgstr "最小值："
@@ -1921,3 +1930,279 @@ msgstr "木魚"
 msgid "Xylophone"
 msgstr "木琴"
 
+############################################
+# For Artec BLOCK programming environment
+############################################
+########## Motion ##########
+msgid "Set servomotor %J to %F degrees"
+msgstr "將伺服馬達 %J 設為 %F 度"
+
+msgid "DC motor %j power %n"
+msgstr "將DC馬達 %j 的功率設為 %n"
+
+msgid "DC motor %j off %T"
+msgstr "將DC馬達 %j 關閉 %T"
+
+msgid "DC motor %j on at %t"
+msgstr "將DC馬達 %j 打開 %t"
+
+msgid "Buzzer %B on frequency %N"
+msgstr "由蜂鳴器 %B 開始發出 %N 音符"
+
+msgid "Buzzer %B off"
+msgstr "將蜂鳴器 %B 的聲音停止"
+
+msgid "LED %p %o"
+msgstr "將LED %p 設為 %o"
+
+msgid "Color LED %w %o"
+msgstr "將彩色LED設為 %w 色 %o"
+
+msgid "Brake"
+msgstr "停止"
+
+msgid "Coast"
+msgstr "解放"
+
+msgid "cw."
+msgstr "正轉"
+
+msgid "ccw."
+msgstr "反轉"
+
+msgid "on"
+msgstr "點灯"
+
+msgid "off"
+msgstr "熄灯"
+
+msgid "White"
+msgstr "白"
+
+msgid "Red"
+msgstr "红"
+
+msgid "Green"
+msgstr "綠"
+
+msgid "Blue"
+msgstr "藍"
+
+msgid "Cyan"
+msgstr "水藍"
+
+msgid "Magenta"
+msgstr "紫"
+
+msgid "Yellow"
+msgstr "黄"
+
+########## Sensor ###########
+msgid "Light Sensor %P value"
+msgstr "光感應器 %P 的值"
+
+msgid "Touch Sensor %V value"
+msgstr "觸摸感應器 %V 的值"
+
+msgid "Sound Sensor %O value"
+msgstr "聲音感應器 %O 的值"
+
+msgid "IR Photoreflector %Z value"
+msgstr "红外線反射感應器 %Z 的值"
+
+msgid "Button %X value"
+msgstr "按鈕 %X 的值"
+
+msgid "3-Axis Digital Accelerometer %Y value"
+msgstr "加速度感應器 %Y 的值"
+
+########## Control ###########
+
+msgid "%m Start program"
+msgstr "%m 啟動程式"
+
+msgid "call %e function"
+msgstr "呼唤函數 %e"
+
+msgid "%e function"
+msgstr "函數 %e"
+
+########## Studuino Access Error ###########
+msgid "Could not access to Studuino"
+msgstr "未能跟Studuino通信"
+
+msgid "Make sure Studuino is connected to the PC."
+msgstr "請確認Studuino和PC是否已用USB連線上。"
+
+msgid "Serial port already in use.\nTry quiting any programs that may be using it."
+msgstr "串行埠口正被其他應用軟體使用。\n請關掉有可能在使用串行埠口的應用軟體。"
+
+msgid "Studuino and PC failed to sync.\nSave your project, exit this software, \nreset Studuino, and restart this software."
+msgstr "Studuino和PC未能同期。\n請保存此項目丶關掉程式環境丶\n重置Studuino及重新啟動程式環境。"
+
+########## Build Error ###########
+msgid "Build error"
+msgstr "程式建立錯誤"
+
+msgid "Main function is not defined."
+msgstr "未能定義主函數。"
+
+msgid "An error has occurred in the archiving process. Please re-install."
+msgstr "發生系统錯誤1，請重新安装。"
+
+msgid "An error has occurred in the object copy1 process. Please re-install."
+msgstr "發生系统錯誤2，請重新安装。"
+
+msgid "An error has occurred in the object copy2 process. Please re-install."
+msgstr "發生系统錯誤3，請重新安装。"
+
+msgid "Undefined function."
+msgstr "發現未定義函數。"
+
+msgid "Multiple functions with same name."
+msgstr "函數名稱重複。"
+
+msgid "Undefined function.\nMultiple functions with same name."
+msgstr "發現未定義函數。\n函數名稱重複。"
+
+msgid "Unknown error."
+msgstr "不明錯誤。"
+
+msgid "Undefined function.\nUnknown error."
+msgstr "發現未定義函數。\n不明錯誤。"
+
+msgid "Multiple functions with same name.\nUnknown error."
+msgstr "函數名稱重複。\n不明錯誤。"
+
+msgid "Undefined function.\nMultiple functions with same name.\nUnknown error."
+msgstr "發現未定義函數。\n函數名稱重複。\n不明錯誤。"
+
+msgid "Disconnected."
+msgstr "通信被切断。"
+
+msgid "System file is corrupted.\nSave your project, exit this software, \nreinstall Studuino programming environment."
+msgstr "系统檔案被毁。\n請保存此項目丶關掉程式環境丶\n將Studuino程式環境卸载后再重新安装。"
+
+msgid "System error"
+msgstr "發生系统錯誤"
+
+msgid "Script too big."
+msgstr "程式脚本大小超出限制。"
+
+msgid "COM port error."
+msgstr "於通信埠口發生錯誤。"
+
+
+msgid "Export Arduino Language"
+msgstr "切換為Arduino語言"
+
+########## Menu ###########
+msgid "Motor Calibration"
+msgstr "馬達校正"
+
+msgid "Port Settings"
+msgstr "輸入輸出設定"
+
+msgid "Run"
+msgstr "運行"
+
+msgid "Transfer"
+msgstr "编程、發送"
+
+msgid "Run "
+msgstr "運行程式"
+
+msgid "Test OFF"
+msgstr "測試模式退出"
+
+msgid "Test ON"
+msgstr "測試模式開始"
+
+msgid "Manual"
+msgstr "指南"
+
+msgid "About Studuino Block Programming Environment"
+msgstr "關於Studuino BLOCK程式環境"
+
+msgid "Building and updating..."
+msgstr "程式建立及傳送中"
+
+msgid "Shifting to Test mode..."
+msgstr "正在移至測試模式..."
+
+msgid "Shifting to calibration mode..."
+msgstr "正在移至校正模式..."
+
+msgid "Do not disconnect Studuino from the PC."
+msgstr "請勿切断Studuino和PC的USB連線。"
+
+msgid "Please turn off TestMode and check USB connection and retry."
+msgstr "請關掉測試模式丶確認USB的連線后再重新開始測試模式。"
+
+msgid "Could not access localhost"
+msgstr "未能進入主機"
+
+msgid "Please save your project and restart this software."
+msgstr "請保存項目及重新啟動軟體。"
+
+msgid "Could not connect to Studuino"
+msgstr "未能連線Studuino"
+
+msgid "File Name?"
+msgstr "檔案名？"
+
+msgid "New file name?"
+msgstr "新檔案名？"
+
+msgid "Communication terminated"
+msgstr "與Studuino的通信被切断"
+
+msgid "Please save your project, reset Studuino, and restart this software."
+msgstr "請保存項目丶重置Studuino及重新啟動軟體。"
+
+msgid "Sensor Board"
+msgstr "感應板"
+
+msgid "Not connected"
+msgstr "未連線"
+
+
+
+msgid "Light sensor"
+msgstr "光感應器"
+msgid "Touch sensor"
+msgstr "觸摸感應器"
+msgid "Sound sensor"
+msgstr "聲音感應器"
+msgid "IR photoreflector"
+msgstr "红外線反射感應器"
+msgid "IR Photoreflector"
+msgstr "红外線反射感應器"
+msgid "Buzzer"
+msgstr "蜂鳴器"
+msgid "Accelerometer"
+msgstr "加速度感應器"
+msgid "Accelerometer (X)"
+msgstr "加速度感應器(X)"
+msgid "Accelerometer (Y)"
+msgstr "加速度感應器(Y)"
+msgid "Accelerometer (Z)"
+msgstr "加速度感應器(Z)"
+
+msgid "DC motor"
+msgstr "直流馬達"
+msgid "Servomotor"
+msgstr "伺服馬達"
+msgid "Button"
+msgstr "按鈕"
+msgid "Sensor/LED/Buzzer"
+msgstr "感應器 ／LED／蜂鳴器"
+
+msgid "Pin Assignment Board"
+msgstr "輸入輸出設定"
+
+msgid "Uncheck All"
+msgstr "所有打勾去掉"
+
+msgid "Import Scripts"
+msgstr "讀取脚本"
