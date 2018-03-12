@@ -180,8 +180,14 @@ msgstr "ACCELEROMETER(%Y_AXIS)"
 msgid "Button %X value"
 msgstr "PUSHSWITCH(PORT_%X)"
 
+msgid "Temperature sensor %w value"
+msgstr "TEMPERATURE_SENSOR(PORT_%w)"
+
 msgid "Onboard Light Sensor value"
 msgstr "LIGHT_SENSOR(PORT_A6)"
+
+msgid "Gyro sensor %G value"
+msgstr "GYRO_SENSOR(%G_AXIS)"
 
 msgid "Power value"
 msgstr "board.GetBatteryVoltage()"
@@ -215,6 +221,24 @@ msgstr "AlarmHour()"
 
 msgid "Alarm minute"
 msgstr "AlarmMinute()"
+
+msgid "X(Acc)"
+msgstr "X"
+
+msgid "Y(Acc)"
+msgstr "Y"
+
+msgid "Z(Acc)"
+msgstr "Z"
+
+msgid "X(Gyro)"
+msgstr "GX"
+
+msgid "Y(Gyro)"
+msgstr "GY"
+
+msgid "Z(Gyro)"
+msgstr "GZ"
 
 ########## Operator ###########
 msgid "%n + %n"
@@ -292,3 +316,8 @@ msgstr "resetTimer();"
 msgid "timer"
 msgstr "getTimer()"
 
+msgid "Electrify M1 by %n %"
+msgstr "board.DCMotorPower(PORT_M1, DCMPWR(%n));board.DCMotorControl(PORT_M1, REVERSE);"
+
+msgid "Cut off electricity"
+msgstr "board.DCMotorControl(PORT_M1, BRAKE);"

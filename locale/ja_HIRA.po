@@ -2223,8 +2223,14 @@ msgstr "テストモードをはじめる"
 msgid "Manual"
 msgstr "マニュアル"
 
+msgid "Calibration Setting Options"
+msgstr "モーターこうせいじょうほうのほぞんせってい"
+
+msgid "FAQ"
+msgstr "よくあるごしつもん"
+
 msgid "About Studuino Block Programming Environment"
-msgstr "プログラミングかんきょうについて"
+msgstr "スタディーノ ブロックプログラミングかんきょうについて"
 
 msgid "Building and updating..."
 msgstr "プログラムのビルド＆てんそうちゅう..."
@@ -2364,20 +2370,29 @@ msgid "Import Scripts"
 msgstr "スクリプトをよみこむ"
 
 ################################
+# ソフトウェア設定
+msgid "PC (default)\nKeep your Sermotor calibrations even when you restart your computer or make a new program by saving them to your PC."
+msgstr "PCにほぞんする（デフォルト）\nこうせいじょうほうはPCにほぞんされ、ソフトウェアのさいきどうやプログラムのしんきさくせいのさい、こうせいじょうほうはリセットされません。"
+
+msgid "File\nSave your Servomotor calibrations to a file. You'll need to calibrate them each time you restart your PC or open a new file."
+msgstr "ファイルにほぞんする\nこうせいじょうほうはファイルにほぞんされ、ソフトウェアのさいきどうやプログラムのしんきさくせいのさい、こうせいじょうほうはリセットされます。"
+
+
+################################
 # 新規センサーパーツ対応
 
 msgid "Ultrasonic sensor value"
-msgstr "ちょうおんぱセンサーのあたい"
+msgstr "ちょうおんぱセンサー"
 msgid "Infrared receiver value"
-msgstr "せきがいせんﾘﾓｺﾝじゅしんのあたい"
+msgstr "せきがいせんﾘﾓｺﾝじゅしん"
 msgid "Temperature sensor %w value"
-msgstr "おんどセンサー%wのあたい"
+msgstr "おんどセンサー%w"
 msgid "Color sensor %u value"
-msgstr "カラーセンサー%uのあたい"
+msgstr "カラーセンサー%u"
 msgid "The detected color is %U ?"
 msgstr "%Uいろをけんちした"
-msgid "Gyro sensor %q value"
-msgstr "ジャイロセンサー%qのあたい"
+msgid "Gyro sensor %G value"
+msgstr "ジャイロセンサー%G"
 
 msgid "Receive data via Bluetooth"
 msgstr "Bluetoothでデータをじゅしんした"
@@ -2492,3 +2507,200 @@ msgstr "てんそうエラー"
 
 msgid "Failed to transfer a program. Please retry."
 msgstr "てんそうにしっぱいしました。もういちどやりなおしてください。"
+
+### リストの内容をテキストで出力するブロック用
+msgid "write %L to %A as text file"
+msgstr "%L を %A にテキストけいしきでしゅつりょく"
+
+### 電気実験バージョン対応用
+msgid "%m Start"
+msgstr "%m スタート"
+
+msgid "Electrify M1 by %n %"
+msgstr "M1から %n パーセントででんきをながす"
+
+msgid "Cut off electricity"
+msgstr "でんきをとめる"
+
+msgid "Sensor %U value"
+msgstr "センサー %U のあたい"
+
+msgid "Sensor"
+msgstr "センサー"
+
+### キャラクターバージョン対応用
+msgid "%L contains %s"
+msgstr "%L に %s がふくまれる"
+
+msgid "add %s to %L"
+msgstr "%s を %L についか"
+
+msgid "insert %s at %i of %L"
+msgstr "%L の %i ばんめに %s をそうにゅうする"
+
+msgid "replace item %i of %L with %s"
+msgstr "%L の %i ばんめを %s でおきかえる"
+
+msgid "Could not load project. Project created for Studuino mini."
+msgstr "プロジェクトをよめません。\nスタディーノ・ミニでつくられたプロジェクトです。"
+
+msgid "Could not load project. Project created using Optional Parts from Studuino 2.0."
+msgstr "プロジェクトをよめません。\nブロックプログラミングかんきょう2.0のオプションパーツを\nつかっているプロジェクトです。"
+
+msgid "List name?"
+msgstr "リストのなまえは?"
+
+msgid "Variable name?"
+msgstr "へんすうめい?"
+
+msgid "Host Mesh"
+msgstr "ネットワークをつくる"
+
+msgid "Join Mesh"
+msgstr "ネットワークにつなぐ"
+
+msgid "Show IP Address"
+msgstr "IPアドレスをひょうじする"
+
+msgid "Leave Mesh"
+msgstr "ネットワークをきる"
+
+msgid "Stop Hosting Mesh"
+msgstr "ネットワークをきる"
+
+msgid "Could not connect to "
+msgstr "せつぞくできませんでした："
+
+msgid "IP Address"
+msgstr "IPアドレス"
+
+msgid "IP address:"
+msgstr "IPアドレス"
+
+msgid "Studuino"
+msgstr "スタディーノ"
+
+msgid "Connect"
+msgstr "せつぞく"
+
+msgid "Disconnect"
+msgstr "せつだん"
+
+msgid "Show Studuino Blocks"
+msgstr "スタディーノのブロックをひょうじする"
+
+msgid "Hide Studuino Blocks"
+msgstr "スタディーノのブロックをかくす"
+
+msgid "[A0] Studuino light"
+msgstr "[A0] スタディーノのひかり"
+msgid "[A1] Studuino light"
+msgstr "[A1] スタディーノのひかり"
+msgid "[A2] Studuino light"
+msgstr "[A2] スタディーノのひかり"
+msgid "[A3] Studuino light"
+msgstr "[A3] スタディーノのひかり"
+msgid "[A4] Studuino light"
+msgstr "[A4] スタディーノのひかり"
+msgid "[A5] Studuino light"
+msgstr "[A5] スタディーノのひかり"
+msgid "[A6] Studuino light"
+msgstr "[A6] スタディーノのひかり"
+msgid "[A7] Studuino light"
+msgstr "[A7] スタディーノのひかり"
+
+msgid "[A0] Studuino sound"
+msgstr "[A0] スタディーノのおと"
+msgid "[A1] Studuino sound"
+msgstr "[A1] スタディーノのおと"
+msgid "[A2] Studuino sound"
+msgstr "[A2] スタディーノのおと"
+msgid "[A3] Studuino sound"
+msgstr "[A3] スタディーノのおと"
+msgid "[A4] Studuino sound"
+msgstr "[A4] スタディーノのおと"
+msgid "[A5] Studuino sound"
+msgstr "[A5] スタディーノのおと"
+msgid "[A6] Studuino sound"
+msgstr "[A6] スタディーノのおと"
+msgid "[A7] Studuino sound"
+msgstr "[A7] スタディーノのおと"
+
+msgid "[A0] Studuino IR Photoreflector"
+msgstr "[A0] スタディーノのせきがいせんフォトリフレクタ"
+msgid "[A1] Studuino IR Photoreflector"
+msgstr "[A1] スタディーノのせきがいせんフォトリフレクタ"
+msgid "[A2] Studuino IR Photoreflector"
+msgstr "[A2] スタディーノのせきがいせんフォトリフレクタ"
+msgid "[A3] Studuino IR Photoreflector"
+msgstr "[A3] スタディーノのせきがいせんフォトリフレクタ"
+msgid "[A4] Studuino IR Photoreflector"
+msgstr "[A4] スタディーノのせきがいせんフォトリフレクタ"
+msgid "[A5] Studuino IR Photoreflector"
+msgstr "[A5] スタディーノのせきがいせんフォトリフレクタ"
+msgid "[A6] Studuino IR Photoreflector"
+msgstr "[A6] スタディーノのせきがいせんフォトリフレクタ"
+msgid "[A7] Studuino IR Photoreflector"
+msgstr "[A7] スタディーノのせきがいせんフォトリフレクタ"
+
+msgid "[A0] Studuino temperature"
+msgstr "[A0] スタディーノのおんど"
+msgid "[A1] Studuino temperature"
+msgstr "[A1] スタディーノのおんど"
+msgid "[A2] Studuino temperature"
+msgstr "[A2] スタディーノのおんど"
+msgid "[A3] Studuino temperature"
+msgstr "[A3] スタディーノのおんど"
+msgid "[A4] Studuino temperature"
+msgstr "[A4] スタディーノのおんど"
+msgid "[A5] Studuino temperature"
+msgstr "[A5] スタディーノのおんど"
+msgid "[A6] Studuino temperature"
+msgstr "[A6] スタディーノのおんど"
+msgid "[A7] Studuino temperature"
+msgstr "[A7] スタディーノのおんど"
+
+msgid "[A4/A5] Studuino acceleration (X)"
+msgstr "[A4/A5] スタディーノのかそくど(X)"
+msgid "[A4/A5] Studuino acceleration (Y)"
+msgstr "[A4/A5] スタディーノのかそくど(Y)"
+msgid "[A4/A5] Studuino acceleration (Z)"
+msgstr "[A4/A5] スタディーノのかそくど(Z)"
+
+msgid "[A4/A5] Studuino gyro X(Acc)"
+msgstr "[A4/A5] スタディーノのジャイロ(かそくどＸ)"
+msgid "[A4/A5] Studuino gyro Y(Acc)"
+msgstr "[A4/A5] スタディーノのジャイロ(かそくどＹ)"
+msgid "[A4/A5] Studuino gyro Z(Acc)"
+msgstr "[A4/A5] スタディーノのジャイロ(かそくどＺ)"
+msgid "[A4/A5] Studuino gyro X(Gyro)"
+msgstr "[A4/A5] スタディーノのジャイロ(かくそくどＸ)"
+msgid "[A4/A5] Studuino gyro Y(Gyro)"
+msgstr "[A4/A5] スタディーノのジャイロ(かくそくどＹ)"
+msgid "[A4/A5] Studuino gyro Z(Gyro)"
+msgstr "[A4/A5] スタディーノのジャイロ(かくそくどＺ)"
+
+msgid "[A0] Studuino touch sensor pressed"
+msgstr "[A0] スタディーノのタッチセンサーがおされた"
+msgid "[A1] Studuino touch sensor pressed"
+msgstr "[A1] スタディーノのタッチセンサーがおされた"
+msgid "[A2] Studuino touch sensor pressed"
+msgstr "[A2] スタディーノのタッチセンサーがおされた"
+msgid "[A3] Studuino touch sensor pressed"
+msgstr "[A3] スタディーノのタッチセンサーがおされた"
+msgid "[A4] Studuino touch sensor pressed"
+msgstr "[A4] スタディーノのタッチセンサーがおされた"
+msgid "[A5] Studuino touch sensor pressed"
+msgstr "[A5] スタディーノのタッチセンサーがおされた"
+
+msgid "[A0] Studuino button pressed"
+msgstr "[A0] スタディーノのボタンがおされた"
+msgid "[A1] Studuino button pressed"
+msgstr "[A1] スタディーノのボタンがおされた"
+msgid "[A2] Studuino button pressed"
+msgstr "[A2] スタディーノのボタンがおされた"
+msgid "[A3] Studuino button pressed"
+msgstr "[A3] スタディーノのボタンがおされた"
+
+msgid "There is an autosaved program. Do you want to open it?"
+msgstr "じどうほぞんされたプログラムがあります。ひらきますか？"

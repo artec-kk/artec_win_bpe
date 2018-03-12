@@ -2274,6 +2274,9 @@ msgstr "테스트 모드 시작"
 msgid "Manual"
 msgstr "매뉴얼"
 
+msgid "Calibration Setting Options"
+msgstr "교정정보 보존장소의 설정"
+
 msgid "About Studuino Block Programming Environment"
 msgstr "Studuino Block 프로그래밍 환경에 대하여"
 
@@ -2406,6 +2409,15 @@ msgid "Import Scripts"
 msgstr "스크립트 불러오기"
 
 ################################
+# ソフトウェア設定
+msgid "PC (default)\nKeep your Sermotor calibrations even when you restart your computer or make a new program by saving them to your PC."
+msgstr "PC에 보존\n교정정보는 PC에 보존되어, 소프트웨어를 재기동, 혹은 프로그램을 새로 작성해도 교정정보는 초기화 되지 않습니다."
+
+msgid "File\nSave your Servomotor calibrations to a file. You'll need to calibrate them each time you restart your PC or open a new file."
+msgstr "파일에 보존\n교정정보를 파일에 보존, 소프트웨어를 재기동, 혹은 프로그램을 새로 작성하면 교정정보가 초기화 됩니다."
+
+
+################################
 # 新規センサーパーツ対応
 
 msgid "Ultrasonic sensor value"
@@ -2413,7 +2425,7 @@ msgstr "초음파 센서의 값"
 msgid "Infrared receiver value"
 msgstr "적외선 수신기의 값"
 msgid "Temperature sensor %w value"
-msgstr "온도센서의 값"
+msgstr "온도센서의 %w값"
 msgid "Color sensor %u value"
 msgstr "컬러센서 %u의 값 "
 msgid "The detected color is %U ?"
@@ -2469,3 +2481,12 @@ msgstr "기판과의 통신 타임아웃. \nPC의 다른 USB 포트에 연결해
 
 msgid "Timeout error occurred in the communication of the \nsubstrate. Please restart the programming environment."
 msgstr "기판과의 통신 타임아웃. \n프로그래밍 환경을 재기동 해 주십시오."
+
+msgid "Rotate"
+msgstr "회전"
+
+msgid "Stop"
+msgstr "일시정지"
+
+msgid "Reset"
+msgstr "리셋"

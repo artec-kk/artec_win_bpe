@@ -2106,6 +2106,9 @@ msgstr "测试模式开始"
 msgid "Manual"
 msgstr "指南"
 
+msgid "Calibration Setting Options"
+msgstr "充电马匹校准值"
+
 msgid "About Studuino Block Programming Environment"
 msgstr "关于Studuino BLOCK程序环境"
 
@@ -2191,3 +2194,28 @@ msgstr "所有对勾去掉"
 
 msgid "Import Scripts"
 msgstr "读取脚本"
+
+msgid "Temperature sensor %w value"
+msgstr "温度传感器 %w 的值"
+
+msgid "Temperature sensor"
+msgstr "温度传感器"
+################################
+# ソフトウェア設定
+msgid "PC (default)\nKeep your Sermotor calibrations even when you restart your computer or make a new program by saving them to your PC."
+msgstr "储存至电脑。\n校正后的资讯于电脑中储存、软件再启动亦或是新程序编成时、本次校正资讯不会重置。"
+
+msgid "File\nSave your Servomotor calibrations to a file. You'll need to calibrate them each time you restart your PC or open a new file."
+msgstr "储存至电脑。\n校正后的资讯于电脑中储存、软件再启动亦或是新程序编成时、本次校正资讯会重置。"
+
+msgid "Rotate"
+msgstr "转动"
+
+msgid "Stop"
+msgstr "停止"
+
+msgid "Reset"
+msgstr "重置"
+
+msgid "deg."
+msgstr "度"

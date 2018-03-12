@@ -2229,8 +2229,14 @@ msgstr "テストモード開始"
 msgid "Manual"
 msgstr "マニュアル"
 
+msgid "Calibration Setting Options"
+msgstr "モーター校正情報の保存設定"
+
+msgid "FAQ"
+msgstr "よくあるご質問"
+
 msgid "About Studuino Block Programming Environment"
-msgstr "Studuino BLOCKプログラミング環境について"
+msgstr "Studuinoブロックプログラミング環境について"
 
 msgid "Building and updating..."
 msgstr "プログラムのビルド＆転送中..."
@@ -2370,6 +2376,15 @@ msgid "Import Scripts"
 msgstr "スクリプトを読み込む"
 
 ################################
+# ソフトウェア設定
+msgid "PC (default)\nKeep your Sermotor calibrations even when you restart your computer or make a new program by saving them to your PC."
+msgstr "PCに保存する（デフォルト）\n校正情報はPCに保存され、ソフトウェアの再起動やプログラムの新規作成の際、校正情報はリセットされません。"
+
+msgid "File\nSave your Servomotor calibrations to a file. You'll need to calibrate them each time you restart your PC or open a new file."
+msgstr "ファイルに保存する\n校正情報はファイルに保存され、ソフトウェアの再起動やプログラムの新規作成の際、校正情報はリセットされます。"
+
+
+################################
 # 新規センサーパーツ対応
 
 msgid "Ultrasonic sensor value"
@@ -2382,8 +2397,8 @@ msgid "Color sensor %u value"
 msgstr "カラーセンサー%uの値"
 msgid "The detected color is %U ?"
 msgstr "%U色を検知した"
-msgid "Gyro sensor %q value"
-msgstr "ジャイロセンサー%qの値"
+msgid "Gyro sensor %G value"
+msgstr "ジャイロセンサー%Gの値"
 
 msgid "Receive data via Bluetooth"
 msgstr "Bluetoothでデータを受信した"
@@ -2466,6 +2481,19 @@ msgstr "一括変換:"
 msgid " deg."
 msgstr " 度"
 
+msgid "Gyro sensor (X(Acc))"
+msgstr "ジャイロｾﾝｻｰ(加速度X)"
+msgid "Gyro sensor (Y(Acc))"
+msgstr "ジャイロｾﾝｻｰ(加速度Y)"
+msgid "Gyro sensor (Z(Acc))"
+msgstr "ジャイロｾﾝｻｰ(加速度Z)"
+msgid "Gyro sensor (X(Gyro))"
+msgstr "ジャイロｾﾝｻｰ(角速度X)"
+msgid "Gyro sensor (Y(Gyro))"
+msgstr "ジャイロｾﾝｻｰ(角速度Y)"
+msgid "Gyro sensor (Z(Gyro))"
+msgstr "ジャイロｾﾝｻｰ(角速度Z)"
+
 msgid "obsolete!"
 msgstr "!!サポートされていないブロック!!"
 
@@ -2498,3 +2526,200 @@ msgstr "転送エラー"
 
 msgid "Failed to transfer a program. Please retry."
 msgstr "転送に失敗しました。もう一度やり直してください。"
+
+### リストの内容をテキストで出力するブロック用
+msgid "write %L to %A as text file"
+msgstr "%L を %A にテキスト形式で出力"
+
+### 電気実験バージョン対応用
+msgid "%m Start"
+msgstr "%m スタート"
+
+msgid "Electrify M1 by %n %"
+msgstr "M1から %n %で電気を流す"
+
+msgid "Cut off electricity"
+msgstr "電気を止める"
+
+msgid "Sensor %U value"
+msgstr "センサー %U の値"
+
+msgid "Sensor"
+msgstr "センサー"
+
+### キャラクターバージョン対応用
+msgid "%L contains %s"
+msgstr "%L に %s が含まれる"
+
+msgid "add %s to %L"
+msgstr "%s を %L に追加する"
+
+msgid "insert %s at %i of %L"
+msgstr "%L の %i 番目に %s を挿入する"
+
+msgid "replace item %i of %L with %s"
+msgstr "%L の %i 番目を %s で置き換える"
+
+msgid "Could not load project. Project created for Studuino mini."
+msgstr "プロジェクトを読めません。\nStuduino mini用に作成されたプロジェクトです。"
+
+msgid "Could not load project. Project created using Optional Parts from Studuino 2.0."
+msgstr "プロジェクトを読めません。\nブロックプログラミング環境ver2.0のオプションパーツが\n使用されているプロジェクトです。"
+
+msgid "List name?"
+msgstr "リストの名前は?"
+
+msgid "Variable name?"
+msgstr "変数名?"
+
+msgid "Host Mesh"
+msgstr "ネットワークを作る"
+
+msgid "Join Mesh"
+msgstr "ネットワークにつなぐ"
+
+msgid "Show IP Address"
+msgstr "IPアドレスを表示する"
+
+msgid "Leave Mesh"
+msgstr "ネットワークを切る"
+
+msgid "Stop Hosting Mesh"
+msgstr "ネットワークを切る"
+
+msgid "Could not connect to "
+msgstr "接続できませんでした："
+
+msgid "IP Address"
+msgstr "IPアドレス"
+
+msgid "IP address:"
+msgstr "IPアドレス"
+
+msgid "Studuino"
+msgstr "スタディーノ"
+
+msgid "Connect"
+msgstr "接続"
+
+msgid "Disconnect"
+msgstr "切断"
+
+msgid "Show Studuino Blocks"
+msgstr "スタディーノのブロックを表示する"
+
+msgid "Hide Studuino Blocks"
+msgstr "スタディーノのブロックを隠す"
+
+msgid "[A0] Studuino light"
+msgstr "[A0] スタディーノの光"
+msgid "[A1] Studuino light"
+msgstr "[A1] スタディーノの光"
+msgid "[A2] Studuino light"
+msgstr "[A2] スタディーノの光"
+msgid "[A3] Studuino light"
+msgstr "[A3] スタディーノの光"
+msgid "[A4] Studuino light"
+msgstr "[A4] スタディーノの光"
+msgid "[A5] Studuino light"
+msgstr "[A5] スタディーノの光"
+msgid "[A6] Studuino light"
+msgstr "[A6] スタディーノの光"
+msgid "[A7] Studuino light"
+msgstr "[A7] スタディーノの光"
+
+msgid "[A0] Studuino sound"
+msgstr "[A0] スタディーノの音"
+msgid "[A1] Studuino sound"
+msgstr "[A1] スタディーノの音"
+msgid "[A2] Studuino sound"
+msgstr "[A2] スタディーノの音"
+msgid "[A3] Studuino sound"
+msgstr "[A3] スタディーノの音"
+msgid "[A4] Studuino sound"
+msgstr "[A4] スタディーノの音"
+msgid "[A5] Studuino sound"
+msgstr "[A5] スタディーノの音"
+msgid "[A6] Studuino sound"
+msgstr "[A6] スタディーノの音"
+msgid "[A7] Studuino sound"
+msgstr "[A7] スタディーノの音"
+
+msgid "[A0] Studuino IR Photoreflector"
+msgstr "[A0] スタディーノの赤外線フォトリフレクタ"
+msgid "[A1] Studuino IR Photoreflector"
+msgstr "[A1] スタディーノの赤外線フォトリフレクタ"
+msgid "[A2] Studuino IR Photoreflector"
+msgstr "[A2] スタディーノの赤外線フォトリフレクタ"
+msgid "[A3] Studuino IR Photoreflector"
+msgstr "[A3] スタディーノの赤外線フォトリフレクタ"
+msgid "[A4] Studuino IR Photoreflector"
+msgstr "[A4] スタディーノの赤外線フォトリフレクタ"
+msgid "[A5] Studuino IR Photoreflector"
+msgstr "[A5] スタディーノの赤外線フォトリフレクタ"
+msgid "[A6] Studuino IR Photoreflector"
+msgstr "[A6] スタディーノの赤外線フォトリフレクタ"
+msgid "[A7] Studuino IR Photoreflector"
+msgstr "[A7] スタディーノの赤外線フォトリフレクタ"
+
+msgid "[A0] Studuino temperature"
+msgstr "[A0] スタディーノの温度"
+msgid "[A1] Studuino temperature"
+msgstr "[A1] スタディーノの温度"
+msgid "[A2] Studuino temperature"
+msgstr "[A2] スタディーノの温度"
+msgid "[A3] Studuino temperature"
+msgstr "[A3] スタディーノの温度"
+msgid "[A4] Studuino temperature"
+msgstr "[A4] スタディーノの温度"
+msgid "[A5] Studuino temperature"
+msgstr "[A5] スタディーノの温度"
+msgid "[A6] Studuino temperature"
+msgstr "[A6] スタディーノの温度"
+msgid "[A7] Studuino temperature"
+msgstr "[A7] スタディーノの温度"
+
+msgid "[A4/A5] Studuino acceleration (X)"
+msgstr "[A4/A5] スタディーノの加速度(X)"
+msgid "[A4/A5] Studuino acceleration (Y)"
+msgstr "[A4/A5] スタディーノの加速度(Y)"
+msgid "[A4/A5] Studuino acceleration (Z)"
+msgstr "[A4/A5] スタディーノの加速度(Z)"
+
+msgid "[A4/A5] Studuino gyro X(Acc)"
+msgstr "[A4/A5] スタディーノのジャイロ(加速度Ｘ)"
+msgid "[A4/A5] Studuino gyro Y(Acc)"
+msgstr "[A4/A5] スタディーノのジャイロ(加速度Ｙ)"
+msgid "[A4/A5] Studuino gyro Z(Acc)"
+msgstr "[A4/A5] スタディーノのジャイロ(加速度Ｚ)"
+msgid "[A4/A5] Studuino gyro X(Gyro)"
+msgstr "[A4/A5] スタディーノのジャイロ(角速度Ｘ)"
+msgid "[A4/A5] Studuino gyro Y(Gyro)"
+msgstr "[A4/A5] スタディーノのジャイロ(角速度Ｙ)"
+msgid "[A4/A5] Studuino gyro Z(Gyro)"
+msgstr "[A4/A5] スタディーノのジャイロ(角速度Ｚ)"
+
+msgid "[A0] Studuino touch sensor pressed"
+msgstr "[A0] スタディーノのタッチセンサーが押された"
+msgid "[A1] Studuino touch sensor pressed"
+msgstr "[A1] スタディーノのタッチセンサーが押された"
+msgid "[A2] Studuino touch sensor pressed"
+msgstr "[A2] スタディーノのタッチセンサーが押された"
+msgid "[A3] Studuino touch sensor pressed"
+msgstr "[A3] スタディーノのタッチセンサーが押された"
+msgid "[A4] Studuino touch sensor pressed"
+msgstr "[A4] スタディーノのタッチセンサーが押された"
+msgid "[A5] Studuino touch sensor pressed"
+msgstr "[A5] スタディーノのタッチセンサーが押された"
+
+msgid "[A0] Studuino button pressed"
+msgstr "[A0] スタディーノのボタンが押された"
+msgid "[A1] Studuino button pressed"
+msgstr "[A1] スタディーノのボタンが押された"
+msgid "[A2] Studuino button pressed"
+msgstr "[A2] スタディーノのボタンが押された"
+msgid "[A3] Studuino button pressed"
+msgstr "[A3] スタディーノのボタンが押された"
+
+msgid "There is an autosaved program. Do you want to open it?"
+msgstr "自動保存されたプログラムがあります。開きますか？"
