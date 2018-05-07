@@ -902,7 +902,7 @@ msgid "Line tool (draw lines)"
 msgstr "Herramienta para líneas"
 
 msgid "List name?\n(Only alphanumeric characters are allowed)"
-msgstr "Listar nombre?\n(sólo caracteres alfanuméricos)"
+msgstr "¿Listar nombre?\n(sólo caracteres alfanuméricos)"
 
 msgid "Low"
 msgstr "Baja"
@@ -1377,7 +1377,7 @@ msgid "Uploading"
 msgstr "Enviando"
 
 msgid "Variable name?\n(Only alphanumeric characters are allowed)"
-msgstr "Nombre de la variable?\n(sólo caracteres alfanuméricos)"
+msgstr "¿Nombre de la variable?\n(sólo caracteres alfanuméricos)"
 
 msgid "View on stage"
 msgstr "Presentar en el escenario"
@@ -2129,11 +2129,23 @@ msgstr "Error en el proceso object copy2. Por favor reinstala."
 msgid "Undefined function."
 msgstr "Función indefinida."
 
-msgid "There are blocks that are not connected."
-msgstr "Hay bloques sin conectar."
+msgid "Multiple functions with same name."
+msgstr "Múltiple funciones con el mismo nombre."
 
-msgid "Undefined function.\nThere are blocks that are not connected."
-msgstr "Función indefinida.\nHay bloques sin conectar."
+msgid "Undefined function.\nMultiple functions with same name."
+msgstr "Función indefinida.\nMúltiple funciones con el mismo nombre."
+
+msgid "Unknown error."
+msgstr "Error desconocido."
+
+msgid "Undefined function.\nUnknown error."
+msgstr "Función indefinida.\nError desconocido."
+
+msgid "Multiple functions with same name.\nUnknown error."
+msgstr "Múltiple funciones con el mismo nombre.\nError desconocido."
+
+msgid "Undefined function.\nMultiple functions with same name.\nUnknown error."
+msgstr "Función indefinida.\nMúltiple funciones con el mismo nombre.\nError desconocido."
 
 msgid "Disconnected."
 msgstr "Desconectado"
@@ -2174,13 +2186,13 @@ msgid "deg."
 msgstr "grado"
 
 msgid "Port Settings"
-msgstr "settings del puerto"
+msgstr "Configuración de Puerto"
 
 msgid "Run"
 msgstr "Ejecutar"
 
 msgid "Transfer"
-msgstr "transferir"
+msgstr "Transferir"
 
 msgid "Run "
 msgstr "Ejecutar un programa"
@@ -2190,6 +2202,9 @@ msgstr "Prueba desactivada"
 
 msgid "Test ON"
 msgstr "Prueba activada"
+
+msgid "Calibration Setting Options"
+msgstr "Opciones de Configuración de Calibración"
 
 msgid "About Studuino Block Programming Environment"
 msgstr "Sobre el entorno de programación de bloques Studino."
@@ -2207,7 +2222,7 @@ msgid "Translating..."
 msgstr "Transladando..."
 
 msgid "Do not disconnect Studuino from the PC."
-msgstr "No descontectar Srudino del PC."
+msgstr "No desconectar Srudino del PC."
 
 msgid "Please turn off TestMode and check USB connection and retry."
 msgstr "Por favor apaga el modo prueba , comprueba la conexión USB y reintenta."
@@ -2234,7 +2249,7 @@ msgid "Unclear pin number"
 msgstr "número Pin confuso"
 
 msgid "Please set servo motor PIN number connected to board."
-msgstr "Por favor ajusta el número Pin del servomotor conectado a la placa"
+msgstr "Por favor determina el número Pin del servomotor conectado a la placa"
 
 msgid "Communication terminated"
 msgstr "Comunicación terminada"
@@ -2324,6 +2339,15 @@ msgid "Import Scripts"
 msgstr "Importar scripts"
 
 ################################
+# ソフトウェア設定
+msgid "PC (default)\nKeep your Sermotor calibrations even when you restart your computer or make a new program by saving them to your PC."
+msgstr "PC (predeterminado)\nMantenga su calibración de servomotores incluso después de reiniciar su computadora, o, haga un nuevo programa guardando entonces en su PC."
+
+msgid "File\nSave your Servomotor calibrations to a file. You'll need to calibrate them each time you restart your PC or open a new file."
+msgstr "Archivo\nGuardar las calibraciones de servomotores para un archivo. Usted necesitará calibrar cada vez que reinicie el equipo o abrir un nuevo archivo."
+
+
+################################
 # 新規センサーパーツ対応
 
 msgid "Ultrasonic sensor value"
@@ -2389,7 +2413,7 @@ msgid "Time-out error has occurred in the communication \nwith Studuino board. I
 msgstr "Un error de desonexión por tiempo ha ocurrido en la comunicación con la placa Studino.\nSi ocurre el mismo error reemplaza el puerto USB del PC y reinicia el PC."
 
 msgid "Timeout error occurred in the communication of the \nsubstrate. Please restart the programming environment."
-msgstr "Un error de desonexión por tiempo ha occurrido en la comunicación del substrato.\nPor favor reinicia el entorno de programación."
+msgstr "Un error de desonexión por tiempo ha ocurrido en la comunicación del substrato.\nPor favor reinicia el entorno de programación."
 
 ### センサー値補正処理
 msgid "Sensor Calibration"

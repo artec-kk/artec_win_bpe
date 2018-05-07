@@ -57,25 +57,25 @@ msgstr ""
 msgid "%H sensor value"
 msgstr "valeur du capteur %H"
 
-msgid "%L contains %s"
-msgstr "%L contient %s"
+msgid "%L contains %n"
+msgstr "%L contient %n"
 
 msgid "%a of %m"
 msgstr "%a de %m"
 
-#msgid "%b and %b"
-#msgstr "%b et %b"
+msgid "%b and %b"
+msgstr "%b et %b"
 
-#msgid "%b or %b"
-#msgstr "%b ou %b"
+msgid "%b or %b"
+msgstr "%b ou %b"
 
-#msgid "%f of %n"
-#msgstr "%f de %n"
+msgid "%f of %n"
+msgstr "%f de %n"
 
-#msgid "%n mod %n"
-#msgstr "%n mod %n"
+msgid "%n mod %n"
+msgstr "%n mod %n"
 
-msgid "add %s to %L"
+msgid "add %n to %L"
 msgstr "ajouter %s à %L"
 
 msgid "answer"
@@ -96,8 +96,8 @@ msgstr "envoyer à tous %e et attendre"
 msgid "change %g effect by %n"
 msgstr "modifier l’effet %g par %n"
 
-#msgid "change %v by %n"
-#msgstr "changer %v par %n"
+msgid "change %v by %n"
+msgstr "changer %v par %n"
 
 msgid "change pen color by %n"
 msgstr "modifier la couleur du stylo par %n"
@@ -138,8 +138,8 @@ msgstr "contrôle"
 msgid "costume #"
 msgstr "costume n°"
 
-#msgid "delete %y of %L"
-#msgstr "supprimer %y de %L"
+msgid "delete %y of %L"
+msgstr "supprimer l'élément %y de la liste %L"
 
 msgid "direction"
 msgstr "direction"
@@ -147,14 +147,14 @@ msgstr "direction"
 msgid "distance to %m"
 msgstr "distance de %m"
 
-#msgid "else"
-#msgstr "sinon"
+msgid "else"
+msgstr "sinon"
 
-#msgid "forever"
-#msgstr "répéter indéfiniment"
+msgid "forever"
+msgstr "répéter indéfiniment"
 
-#msgid "forever if %b"
-#msgstr "répéter indéfiniment si %b"
+msgid "forever if %b"
+msgstr "répéter indéfiniment si %b"
 
 msgid "glide %n secs to x:%n y:%n"
 msgstr "glisser en %n secondes à x:%n y:%n"
@@ -177,17 +177,17 @@ msgstr "cacher"
 msgid "hide variable %v"
 msgstr "cacher la variable %v"
 
-#msgid "if %b"
-#msgstr "si %b"
+msgid "if %b"
+msgstr "si %b"
 
 msgid "if on edge, bounce"
 msgstr "rebondir si le bord est atteint"
 
-msgid "insert %s at %i of %L"
-msgstr "insérer %s à %i de %L"
+msgid "insert %n at %i of %L"
+msgstr "insérer %n en position %i de la liste %L"
 
-#msgid "item %i of %L"
-#msgstr "element %i de %L"
+msgid "item %i of %L"
+msgstr "élément %i de %L"
 
 msgid "join %s %s"
 msgstr "regroupe %s %s"
@@ -195,8 +195,8 @@ msgstr "regroupe %s %s"
 msgid "key %k pressed?"
 msgstr "touche %k pressée?"
 
-#msgid "length of %L"
-#msgstr "longueur de %L"
+msgid "length of %L"
+msgstr "longueur de %L"
 
 msgid "length of %s"
 msgstr "longueur de %s"
@@ -252,8 +252,8 @@ msgstr "arrière-plan suivant"
 msgid "next costume"
 msgstr "costume suivant"
 
-#msgid "not %b"
-#msgstr "non %b"
+msgid "not %b"
+msgstr "non %b"
 
 msgid "operators"
 msgstr "opérateurs"
@@ -267,8 +267,8 @@ msgstr "abaisser le stylo"
 msgid "pen up"
 msgstr "relever le stylo"
 
-#msgid "pick random %n to %n"
-#msgstr "nombre aléatoire entre %n et %n"
+msgid "pick random %n to %n"
+msgstr "nombre aléatoire entre %n et %n"
 
 msgid "play drum %D for %n beats"
 msgstr "jouer tambour %D pour %n temps"
@@ -288,26 +288,29 @@ msgstr "pointer en direction %d"
 msgid "point towards %m"
 msgstr "pointer vers %m"
 
-#msgid "repeat %n"
-#msgstr "répéter %n fois"
+msgid "repeat %n"
+msgstr "répéter %n fois"
 
-#msgid "repeat until %b"
-#msgstr "répéter jusqu’à %b"
+msgid "repeat until %b"
+msgstr "répéter jusqu’à %b"
+
+msgid "Servomotor synchro motion speed:%E"
+msgstr "Vitesse du mouvement servormoteur(s) synchro(s): %E"
 
 msgid "Servomotor synchro motion delay:%E"
 msgstr "Vitesse de mouvement synchronisé du Servomotor:%E"
 
-msgid "replace item %i of %L with %s"
-msgstr "remplacer %i dans %L par %s"
+msgid "replace item %i of %L with %n"
+msgstr "remplacer l'élément %i de la liste %L par %n"
 
-#msgid "reset timer"
-#msgstr "réinitialiser le chronomètre"
+msgid "reset timer"
+msgstr "réinitialiser le chronomètre"
 
 msgid "rest for %n beats"
 msgstr "faire une pause pour %n temps"
 
-#msgid "round %n"
-#msgstr "arrondir %n"
+msgid "round %n"
+msgstr "arrondir %n"
 
 msgid "say %s"
 msgstr "dire %s"
@@ -324,8 +327,8 @@ msgstr "capteur %h activé?"
 msgid "set %g effect to %n"
 msgstr "mettre l’effet %g à %n"
 
-#msgid "set %v to %n"
-#msgstr "à %v attribuer %n"
+msgid "set %v to %n"
+msgstr "à %v attribuer %n"
 
 msgid "set instrument to %I"
 msgstr "mettre l'instrument à %I"
@@ -396,8 +399,8 @@ msgstr "penser à %s"
 msgid "think %s for %n secs"
 msgstr "penser à %s pendant %n secondes"
 
-#msgid "timer"
-#msgstr "chronomètre"
+msgid "timer"
+msgstr "chronomètre"
 
 msgid "touching %m?"
 msgstr "%m touché?"
@@ -414,11 +417,11 @@ msgstr "variables"
 msgid "volume"
 msgstr "volume"
 
-#msgid "wait %n secs"
-#msgstr "attendre %n secondes"
+msgid "wait %n secs"
+msgstr "attendre %n secondes"
 
-#msgid "wait until %b"
-#msgstr "attendre jusqu’à %b"
+msgid "wait until %b"
+msgstr "attendre jusqu’à %b"
 
 msgid "when %k key pressed"
 msgstr "quand %k est pressé"
@@ -463,8 +466,8 @@ msgstr "ajouter un commentaire ici"
 msgid "all"
 msgstr "tout"
 
-#msgid "and"
-#msgstr "et"
+msgid "and"
+msgstr "et"
 
 msgid "Animation"
 msgstr "Animation"
@@ -585,8 +588,8 @@ msgstr "Impossible de lire le projet ; le fichier est peut-être corrompu"
 msgid "Could not write file"
 msgstr "Impossible d'écrire le fichier"
 
-#msgid "Create account"
-#msgstr "Créer un compte"
+msgid "Create account"
+msgstr "Créer un compte"
 
 msgid "Create an empty project"
 msgstr "Créer un projet vide"
@@ -1027,8 +1030,8 @@ msgstr "Ouvrir un projet Scratch"
 msgid "Open Project"
 msgstr "Ouvrir un projet"
 
-#msgid "or"
-#msgstr "ou"
+msgid "or"
+msgstr "ou"
 
 msgid "Paint"
 msgstr "Dessin"
@@ -1264,8 +1267,8 @@ msgstr "Objet"
 msgid "Sprites"
 msgstr "Objets"
 
-#msgid "sqrt"
-#msgstr "racine"
+msgid "sqrt"
+msgstr "racine"
 
 msgid "Stage"
 msgstr "Scène"
@@ -1346,7 +1349,7 @@ msgid "turn into new sprite"
 msgstr "en faire un nouveal objet"
 
 msgid "Undelete"
-msgstr "Restaurer"
+msgstr "Ne pas effacer"
 
 msgid "Undo"
 msgstr "Annuler"
@@ -1937,6 +1940,75 @@ msgstr "Xylophone"
 ############################################
 # For Artec BLOCK programming environment
 ############################################
+########## Motion ##########
+msgid "Set servomotor %J to %F degrees"
+msgstr "Régler le servomoteur %J à %F degrés"
+
+msgid "DC motor %j power %n"
+msgstr "Moteur %j puissance %n"
+
+msgid "DC motor %j off %T"
+msgstr "Moteur %j off %T"
+
+msgid "DC motor %j on at %t"
+msgstr "Moteur %j tourne %t"
+
+msgid "Buzzer %B on frequency %N"
+msgstr "Alarme %B sur une fréquence de %N"
+
+msgid "Buzzer %B off"
+msgstr "Alarme %B off"
+
+#msgid "LED %p %o"
+#msgstr "LED %p %o"
+
+msgid "Brake"
+msgstr "Frein"
+
+msgid "Coast"
+msgstr "Roue libre"
+
+msgid "cw."
+msgstr "Sens aiguilles"
+
+msgid "ccw."
+msgstr "Sens contraire aiguilles"
+
+#msgid "on"
+#msgstr "on"
+
+#msgid "off"
+#msgstr "off"
+
+########## Sensor ###########
+msgid "Light Sensor %P value"
+msgstr "Valeur du capteur de lumière %P"
+
+msgid "Touch Sensor %V value"
+msgstr "Valeur du capteur de pression %V"
+
+msgid "Sound Sensor %O value"
+msgstr "Valeur du capteur de son %O"
+
+msgid "IR Photoreflector %Z value"
+msgstr "Valeur du photoréflecteur IR %Z"
+
+msgid "Button %X value"
+msgstr "Valeur du bouton %X"
+
+msgid "3-Axis Digital Accelerometer %Y value"
+msgstr "Valeur de l'accéléromètre à 3 axes %Y"
+
+########## Control ###########
+
+msgid "%m Start program"
+msgstr "%m Démarrer le programme"
+
+msgid "call %e function"
+msgstr "Appeler la fonction %e"
+
+msgid "%e function"
+msgstr "Fonction %e"
 
 ########## Studuino Access Error ###########
 msgid "Could not access to Studuino"
@@ -2116,6 +2188,29 @@ msgstr "Tableau des capteurs"
 msgid "Not connected"
 msgstr "Pas connecté"
 
+msgid "Light sensor"
+msgstr "Capteur de lumière"
+msgid "Touch sensor"
+msgstr "Capteur de pression"
+msgid "Sound sensor"
+msgstr "Capteur de son"
+msgid "IR photoreflector"
+msgstr "Photorélfecteur IR"
+msgid "IR Photoreflector"
+msgstr "Photorélfecteur IR"
+msgid "Buzzer"
+msgstr "Alarme"
+msgid "Accelerometer"
+msgstr "Accéléromètre"
+msgid "DC motor"
+msgstr "Moteur CC"
+msgid "Servomotor"
+msgstr "Servomoteur"
+msgid "Button"
+msgstr "Bouton"
+msgid "Sensor/LED/Buzzer"
+msgstr "Capteur/LED/Alarme"
+
 msgid "Pin Assignment Board"
 msgstr "Tableau d'assignation des broches"
 
@@ -2143,6 +2238,16 @@ msgstr "Fichier\nSauvegarder les calibrations des servomoteurs dans un fichier. 
 
 ################################
 # 新規センサーパーツ対応
+
+msgid "Temperature sensor %w value"
+msgstr "Valeur du capteur de température %w"
+msgid "Gyro sensor %G value"
+msgstr "Valeur du gyroscope %G"
+
+msgid "Temperature sensor"
+msgstr "Capteur de température"
+msgid "Gyro sensor"
+msgstr "Gyroscope"
 
 msgid "Hide Option Parts Blocks"
 msgstr "Cacher les blocs des pièces optionnelles"
@@ -2187,4 +2292,9 @@ msgstr "Ce script peut ne pas s'ouvrir correctement."
 
 msgid "Script you are trying to open might be \nusing a block that can not be displayed \nin this programming environment. \nIt is recommended that you update \nthe programming environment \nto the latest version."
 msgstr "Ce projet utilise un bloc qui ne peut pas être montré dans cette version de l'environnement de programmation. Nous recommandons de mettre à jour votre logiciel avec la version 2.0 ou supérieure."
+
+### リストの内容をテキストで出力するブロック用
+msgid "write %L to %A as text file"
+msgstr "écrire %L dans le fichier %A"
+
 

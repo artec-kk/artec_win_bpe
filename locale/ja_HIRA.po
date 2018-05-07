@@ -2586,11 +2586,11 @@ msgstr "せつぞく"
 msgid "Disconnect"
 msgstr "せつだん"
 
-msgid "Show Studuino Blocks"
-msgstr "スタディーノのブロックをひょうじする"
+msgid "Show Extra Blocks"
+msgstr "かくちょうブロックをつかう"
 
-msgid "Hide Studuino Blocks"
-msgstr "スタディーノのブロックをかくす"
+msgid "Hide Extra Blocks"
+msgstr "かくちょうブロックをつかわない"
 
 msgid "[A0] Studuino light"
 msgstr "[A0] スタディーノのひかり"
@@ -2704,3 +2704,51 @@ msgstr "[A3] スタディーノのボタンがおされた"
 
 msgid "There is an autosaved program. Do you want to open it?"
 msgstr "じどうほぞんされたプログラムがあります。ひらきますか？"
+
+msgid "Set LED tape %J no.%n red %n green %n blue %n"
+msgstr "LEDテープ %J の%nばんめをあか:%n みどり:%n あお:%nにせっていする"
+
+msgid "Set LED tape %J all red %n green %n blue %n"
+msgstr "LEDテープ %J すべてをあか:%n みどり:%n あお:%nにせっていする"
+
+msgid "LED tape"
+msgstr "LEDテープ"
+
+msgid "Get data from %s with %s"
+msgstr "%sに%sをおくってデータをうけとる"
+
+msgid "Paramter %s and %s"
+msgstr "パラメータ%sと%s"
+
+msgid "Parameter"
+msgstr "パラメータ"
+
+msgid "URL"
+msgstr "URLエンドポイント"
+
+msgid "key"
+msgstr "キー"
+
+msgid "value"
+msgstr "あたい"
+
+msgid "digital %D1 value %D2"
+msgstr "デジタルしゅつりょく%D1に%D2をしゅつりょくする"
+
+msgid "analog %A1 value %A2"
+msgstr "アナログしゅつりょく%A1に%A2をしゅつりょくする"
+
+msgid "Value of digital sensor %D3"
+msgstr "デジタルにゅうりょく%D3のあたい"
+
+msgid "Value of analog sensor %A3"
+msgstr "アナログにゅうりょく%A3のあたい"
+
+msgid "Analog input"
+msgstr "アナログにゅうりょく"
+
+msgid "Digital input"
+msgstr "デジタルにゅうりょく"
+
+msgid "Digital output"
+msgstr "デジタルしゅつりょく"

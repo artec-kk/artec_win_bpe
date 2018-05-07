@@ -189,6 +189,9 @@ msgstr "LIGHT_SENSOR(PORT_A6)"
 msgid "Gyro sensor %G value"
 msgstr "GYRO_SENSOR(%G_AXIS)"
 
+msgid "Ultrasonic sensor value"
+msgstr "ULTRASONIC_SENSOR()"
+
 msgid "Power value"
 msgstr "board.GetBatteryVoltage()"
 

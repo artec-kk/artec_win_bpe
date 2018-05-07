@@ -2605,11 +2605,11 @@ msgstr "接続"
 msgid "Disconnect"
 msgstr "切断"
 
-msgid "Show Studuino Blocks"
-msgstr "スタディーノのブロックを表示する"
+msgid "Show Extra Blocks"
+msgstr "拡張ブロックを使う"
 
-msgid "Hide Studuino Blocks"
-msgstr "スタディーノのブロックを隠す"
+msgid "Hide Extra Blocks"
+msgstr "拡張ブロックを使わない"
 
 msgid "[A0] Studuino light"
 msgstr "[A0] スタディーノの光"
@@ -2723,3 +2723,51 @@ msgstr "[A3] スタディーノのボタンが押された"
 
 msgid "There is an autosaved program. Do you want to open it?"
 msgstr "自動保存されたプログラムがあります。開きますか？"
+
+msgid "Set LED tape %J no.%n red %n green %n blue %n"
+msgstr "LEDテープ %J の%n番目を赤:%n 緑:%n 青:%nに設定する"
+
+msgid "Set LED tape %J all red %n green %n blue %n"
+msgstr "LEDテープ %J すべてを赤:%n 緑:%n 青:%nに設定する"
+
+msgid "LED tape"
+msgstr "LEDテープ"
+
+msgid "Get data from %s with %s"
+msgstr "%sに%sを送ってデータを受け取る"
+
+msgid "Paramter %s and %s"
+msgstr "パラメータ%sと%s"
+
+msgid "URL"
+msgstr "URLエンドポイント"
+
+msgid "Parameter"
+msgstr "パラメータ"
+
+msgid "key"
+msgstr "キー"
+
+msgid "value"
+msgstr "値"
+
+msgid "digital %D1 value %D2"
+msgstr "デジタル出力%D1に%D2を出力する"
+
+msgid "analog %A1 value %A2"
+msgstr "アナログ出力%A1に%A2を出力する"
+
+msgid "Value of digital sensor %D3"
+msgstr "デジタル入力%D3の値"
+
+msgid "Value of analog sensor %A3"
+msgstr "アナログ入力%A3の値"
+
+msgid "Analog input"
+msgstr "アナログ入力"
+
+msgid "Digital input"
+msgstr "デジタル入力"
+
+msgid "Digital output"
+msgstr "デジタル出力"
